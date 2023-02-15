@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Summer20100/ajs-my-homeworks.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "SummerSunny20100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Summer20100/ajs-my-homeworks/issues"
+  },
+  "homepage": "https://github.com/Summer20100/ajs-my-homeworks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "core-js": "^3.28.0"
+  }
+}
