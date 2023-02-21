@@ -1,0 +1,19 @@
+{
+  "name": "@summer20100/03.platforms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Summer20100/ajs-my-homeworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Summer20100/ajs-my-homeworks/issues"
+  },
+  "homepage": "https://github.com/Summer20100/ajs-my-homeworks#readme"
+}
