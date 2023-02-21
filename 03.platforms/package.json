@@ -4,7 +4,11 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/Summer20100/ajs-my-homeworks/issues"
   },
-  "homepage": "https://github.com/Summer20100/ajs-my-homeworks#readme"
+  "homepage": "https://github.com/Summer20100/ajs-my-homeworks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
