@@ -17,9 +17,8 @@ export function orderByProps(obj, [key1, key2]) {
   return res;
 }
 
-export function attackOPtions(obj) {
+export function attackOPtions({ special }) {
   const arr = [];
-  const { special } = obj;
   special.forEach((item) => {
     const {
       id, name, description = 'Описание недоступно', icon,
