@@ -21,6 +21,6 @@ export default class MagicClass extends Character {
 
   set attack(cell) {
     this.newAttack = (1 - cell / 10) * this.attackPrivate;
-    if (this.newAttack < 0) this.newAttack = 0;
+    this.newAttack < 0 ? this.newAttack = 0 : this.newAttack;
   }
 }
